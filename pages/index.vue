@@ -4,6 +4,6 @@
 
 <template>
   <div>
-    <h1>Home page</h1>
+    <NuxtWelcome class="border-2 border-gray-900 rounded-2xl" />
   </div>
 </template>
