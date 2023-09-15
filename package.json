@@ -29,6 +29,7 @@
     "*": "eslint --fix"
   },
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "inter-ui": "^3.19.3"
   }
 }
