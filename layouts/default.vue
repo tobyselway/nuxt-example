@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-screen h-screen overflow-hidden antialiased text-gray-200 select-none bg-gray-950">
+  <div class="flex flex-col w-screen h-screen overflow-hidden font-sans antialiased text-gray-200 select-none bg-gray-950">
     <UiNavbar
       title="My App"
       :items="[
