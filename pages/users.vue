@@ -3,6 +3,8 @@ import { faker } from '@faker-js/faker';
 
 faker.seed(2487534756348);
 
+// TODO: Abstract user generation code in a service
+
 interface User {
   id: string
   name: string
@@ -19,9 +21,11 @@ function createUser(): User {
   return { id, name, email };
 }
 
-const users: User[] = Array(6)
-  .fill({})
-  .map(createUser);
+function repeat<Type>(generator: () => Type, amount: number = 1): Type[] {
+  return Array(amount).fill(null).map(generator);
+}
+
+const users = repeat<User>(createUser, 16);
 </script>
 
 <template>
