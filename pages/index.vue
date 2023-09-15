@@ -3,7 +3,5 @@
 </script>
 
 <template>
-  <div>
-    <NuxtWelcome class="border-2 border-gray-900 rounded-2xl" />
-  </div>
+  <NuxtWelcome class="border-2 border-gray-900 rounded-2xl" />
 </template>
