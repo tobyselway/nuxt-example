@@ -15,7 +15,13 @@ defineProps({
     <h1 class="mr-3 text-3xl font-bold tracking-tighter text-gray-200">
       {{ title }}
     </h1>
-    <NuxtLink v-for="item in items" :key="item.to" :to="item.to" class="text-lg font-semibold tracking-tight hover:text-gray-300" exact-active-class="text-gray-100">
+    <NuxtLink
+      v-for="item in items"
+      :key="item.to"
+      :to="item.to"
+      class="text-lg font-semibold tracking-tight hover:text-gray-300"
+      exact-active-class="text-gray-100"
+    >
       {{ item.title }}
     </NuxtLink>
   </div>
