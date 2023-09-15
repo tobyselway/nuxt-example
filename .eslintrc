@@ -1,0 +1,8 @@
+{
+    "extends": "@antfu",
+    "rules": {
+        "no-extra-semi": "off",
+        "semi": "off",
+        "@typescript-eslint/semi": [2, "always"]
+    }
+}
